@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Booth",
+      "hasCanvas": false,
+      "bodyTextLen": 673,
+      "bodyTextHash": "8111d7cb59ba994755b667fb38cc4a0b25b927bd08c8058d43fc6b939b4127d4",
+      "bodyTextPrefix": "Booth One host. Only what they said. Create new bot Opening the ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Booth",
+      "hasCanvas": false,
+      "bodyTextLen": 673,
+      "bodyTextHash": "8111d7cb59ba994755b667fb38cc4a0b25b927bd08c8058d43fc6b939b4127d4",
+      "bodyTextPrefix": "Booth One host. Only what they said. Create new bot Opening the ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text changed (817 -> 673 chars, hash mismatch)",
+    "mobile: body text changed (817 -> 673 chars, hash mismatch)"
+  ]
+}

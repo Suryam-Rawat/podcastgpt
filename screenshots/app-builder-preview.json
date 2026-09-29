@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Booth",
+      "hasCanvas": false,
+      "bodyTextLen": 817,
+      "bodyTextHash": "60315dc025e78b0dbef1036346c7123d66dba9964dce22db114b5c933d6f12fb",
+      "bodyTextPrefix": "Booth One host. Only what they said. Create new bot LF Lex desk ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Booth",
+      "hasCanvas": false,
+      "bodyTextLen": 817,
+      "bodyTextHash": "60315dc025e78b0dbef1036346c7123d66dba9964dce22db114b5c933d6f12fb",
+      "bodyTextPrefix": "Booth One host. Only what they said. Create new bot LF Lex desk ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

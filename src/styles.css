@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --color-studio: #12100e;
+  --color-studio-2: #1c1915;
+  --color-studio-fg: #f4efe8;
+  --color-paper: #f3eee6;
+  --color-paper-2: #e7dfd2;
+  --color-ink: #16130f;
+  --color-mist: #8a7f72;
+  --color-brass: #a56b32;
+  --color-brass-deep: #7c4e22;
+  --color-line: #d9d0c3;
+  --color-line-dark: #2e2924;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    margin: 0;
+    background: var(--color-studio);
+    color: var(--color-studio-fg);
+    font-family: var(--font-sans);
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@keyframes booth-sweep {
+  from {
+    transform: translateX(-70%);
+  }
+  to {
+    transform: translateX(240%);
+  }
+}
+
+.booth-sweep {
+  animation: booth-sweep 1.1s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .booth-sweep {
+    animation: none;
+  }
+}
+
+.desk-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}
